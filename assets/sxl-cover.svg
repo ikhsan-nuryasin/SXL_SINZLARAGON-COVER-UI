@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9b86ff"/>
+      <stop offset="0.48" stop-color="#6e57d5"/>
+      <stop offset="1" stop-color="#292342"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#130f27" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="20" y="20" width="472" height="472" rx="112" fill="#171522"/>
+  <rect x="30" y="30" width="452" height="452" rx="102" fill="url(#bg)" filter="url(#shadow)"/>
+  <path d="M44 132 Q44 44 132 44 H380 Q468 44 468 132 V212 H44Z" fill="url(#shine)"/>
+  <g transform="translate(117 105)">
+    <rect x="0" y="0" width="278" height="58" rx="17" fill="#171522" fill-opacity="0.26" stroke="#ffffff" stroke-opacity="0.25" stroke-width="2"/>
+    <circle cx="25" cy="29" r="7" fill="#f8f7ff" fill-opacity="0.96"/>
+    <circle cx="49" cy="29" r="7" fill="#f8f7ff" fill-opacity="0.72"/>
+    <circle cx="73" cy="29" r="7" fill="#f8f7ff" fill-opacity="0.48"/>
+    <path d="M105 15 H253" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="256" y="323" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="126" font-weight="800" letter-spacing="-5" fill="#ffffff">SXL</text>
+  <rect x="148" y="362" width="216" height="8" rx="4" fill="#e8e2ff" fill-opacity="0.9"/>
+  <text x="256" y="416" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="35" font-weight="700" letter-spacing="6" fill="#f5f2ff">COVER</text>
+</svg>
